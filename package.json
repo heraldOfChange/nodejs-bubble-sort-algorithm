@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "jest --verbose --watch app/*.test.js lib/*.test.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "algorithm",
+    "algorithms",
+    "sort",
+    "sorting",
+    "sorting algorithm",
+    "sorting algorithms"
+  ],
+  "author": "Martijn Hanrath",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^7.0.0",
